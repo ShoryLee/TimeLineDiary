@@ -1,0 +1,199 @@
+#container, body {
+    margin: 0 auto;
+    background-color: #F8F8F8;
+    width: 1200px;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.under-line {
+    text-decoration: underline;
+}
+h1, .diary-time, #chose-date {
+    font-family: 'Constantia';
+}
+li {
+    list-style-type: none;
+}
+button:focus, input:focus, select:focus {
+    outline: none;
+}
+#header {
+    text-align: center;
+    width: 100%;
+}
+#header>img {
+    width: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#years {
+    padding: 1% 1% 0 3%;
+    height: 100%;
+    float: left;
+}
+#circle_line {
+    height: 100%;
+    float: left;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-left: -6.3px;
+    background-color: #B0B0B0;
+    border-radius: 8px;
+}
+.circle:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+.line {
+    border-left: 3px solid #D4D4D4;
+}
+#text {
+    float: left;
+    width: 700px;
+    height: 100%;
+}
+.content {
+    width: 600px;
+    padding: 10px 10px;
+    margin: 15px 0;
+    float: left;
+    cursor: pointer;
+    line-height: 1.5em;
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px #DFDFDF;
+}
+.content-id {
+    display: none;
+}
+.content-font {
+    font-family: 方正清刻本悦宋简体;
+}
+.content-color {
+    color: #444;
+}
+.content-line {
+    line-height: 1.5em;
+}
+.diary-by-text {
+    font-size: 0.8em;
+}
+.content:hover {
+    box-shadow: 7px 7px 7px #CFCFCF;
+}
+.diary-time {
+    padding: 0;
+    margin: 0;
+    color: #999;
+}
+.modal-addition {
+    line-height: 1.5
+}
+.modal-by-text {
+    padding: 20px 0;
+}
+.modal-content {
+    /*float:left;*/
+    padding-bottom:10px;
+    clear:left;
+}
+.modal-emotion, .diary-emotion {
+    width: 16px;
+    height: 16px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.write-comment {
+    height: auto;
+    width: 100%;
+}
+.write-comment input {
+    font-size: 0.8em;
+    height: 30px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.write-comment button {
+    font-size: 1em;
+    width: 50px;
+    padding: 5px 0;
+    border: none;
+    color: #fff;
+    background-color: #555;
+    cursor: pointer;
+}
+.division-line {
+    width: 100%;
+    height: 5px;
+    background-color: #D4D4D4;
+}
+.comments {
+    color: #555;
+}
+.comment-content {
+    font-size: 0.8em;
+}
+.comment-time {
+    font-size: 0.7em;
+    color: #999;
+}
+.comment-num, .comment-number {
+    font-size: 1.2em;
+    font-family: 'Constantia';
+}
+#chose-date {
+    font-size: 1.2em;
+    border-left: 3px solid #E5E5E5;
+    width: 160px;
+    /*height: 600px;*/
+    margin-left: 1000px;
+    margin-top: 7%;
+    position: fixed;
+    cursor:pointer;
+}
+#chose-date ul li {
+    line-height: 1.5em;
+    border-left: 5px solid #F8F8F8;
+    padding-left: 7%;
+    margin-left: -20px;
+}
+.saa {
+    font-size: 1.3em;
+}
+.aas {
+    width: 100px;
+    display: none;
+}
+.write-new {
+    margin-top: -75px;
+}
+.write-new img {
+    padding-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+.active, #chose-date ul li:hover {
+    border-left: 5px solid #000 !important;
+}
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #eee;
+    display: none;
+}
+.wi {
+    color: #000;
+}
+.comment-line {
+    width: 60%;
+    color: grey;
+}
